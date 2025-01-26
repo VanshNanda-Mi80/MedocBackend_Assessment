@@ -32,3 +32,13 @@ Technical Details
 - State Management: Use Providers or Static Class Members.
 - HTTP Library: Use the default HTTP package for API responses.
 - Implement appropriate middleware to validate JWT tokens and role permissions.
+
+## API Endpoints
+### Authentication
+- `POST http://localhost:3002/auth/login:` - Login as an admin and return a JWT.
+
+### Administrative Operations
+- `GET http://localhost:3002/users:` - Fetch all user profiles.
+- `GET http://localhost:3002/users/:id:` - Fetch details of a specific user.
+- `DELETE http://localhost:3002/users/:id:` - Delete a user profile.
+- `GET http://localhost:3002/audit/notes:` - Fetch notes data from Backend 1 via secure API calls.
