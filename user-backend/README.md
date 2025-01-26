@@ -38,7 +38,9 @@ The assignment focuses on building two independent backend services that showcas
 - Navigate to the project directory: cd userBackend
 - Install dependencies: npm install
 - For production, build and start: npm run build npm start
-- Create a .env file in the root directory and include the following (adjust as needed): ex: PORT=3000
-  MONGO_URI=mongodb://localhost:27017/your-db-name
-  JWT_SECRET=your-secret-key
+- Create a .env file in the root directory and include the following (adjust as needed):
+- MONGODB_URI
+- JWT_SECRET
+- PORT
+- ADMIN_SECRET
 
