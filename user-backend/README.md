@@ -32,3 +32,13 @@ The assignment focuses on building two independent backend services that showcas
 - `POST http://localhost:3001/notes` - Create a new note.
 - `PATCH http://localhost:3001/notes/:id` - Update a specific note.
 - `DELETE http://localhost:3001/notes/:id` - Delete a specific note.
+
+## Setup
+- Clone the repository: git clone https://github.com/VanshNanda-Mi80/MedocBackend_Assessment.git
+- Navigate to the project directory: cd userBackend
+- Install dependencies: npm install
+- For production, build and start: npm run build npm start
+- Create a .env file in the root directory and include the following (adjust as needed): ex: PORT=3000
+  MONGO_URI=mongodb://localhost:27017/your-db-name
+  JWT_SECRET=your-secret-key
+
