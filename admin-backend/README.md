@@ -42,3 +42,14 @@ Technical Details
 - `GET http://localhost:3002/users/:id:` - Fetch details of a specific user.
 - `DELETE http://localhost:3002/users/:id:` - Delete a user profile.
 - `GET http://localhost:3002/audit/notes:` - Fetch notes data from Backend 1 via secure API calls.
+
+## Setup
+- Clone the repository: git clone https://github.com/VanshNanda-Mi80/MedocBackend_Assessment.git
+- Navigate to the project directory: cd adminBackend
+- Install dependencies: npm install
+- For production, build and start: npm run build npm start
+- Create a .env file in the root directory and include the following (adjust as needed):
+- MONGODB_URI
+- JWT_SECRET
+- PORT
+- ADMIN_SECRET
