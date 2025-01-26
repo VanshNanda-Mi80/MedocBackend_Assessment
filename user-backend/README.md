@@ -24,11 +24,11 @@ The assignment focuses on building two independent backend services that showcas
 
 ## API Endpoints
 ### Authentication
-- `POST /auth/register` - Register a new user.
-- `POST /auth/login` - Login and get a JWT token.
+- `POST http://localhost:3001/auth/register` - Register a new user.
+- `POST http://localhost:3001/auth/login` - Login and get a JWT token.
 
 ### Notes
-- `GET /notes` - Fetch all notes of the authenticated user.
-- `POST /notes` - Create a new note.
-- `PATCH /notes/:id` - Update a specific note.
-- `DELETE /notes/:id` - Delete a specific note.
+- `GET http://localhost:3001/notes` - Fetch all notes of the authenticated user.
+- `POST http://localhost:3001/notes` - Create a new note.
+- `PATCH http://localhost:3001/notes/:id` - Update a specific note.
+- `DELETE http://localhost:3001/notes/:id` - Delete a specific note.
